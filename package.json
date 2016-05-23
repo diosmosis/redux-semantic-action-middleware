@@ -1,0 +1,34 @@
+{
+  "name": "redux-semantic-action-middleware",
+  "version": "1.0.0",
+  "description": "Redux middleware that lets you define actions as meaningful units, without OOP.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --require co-mocha --compilers js:babel-register -R spec ./tests/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diosmosis/redux-semantic-action-middleware.git"
+  },
+  "keywords": [
+    "redux",
+    "action",
+    "react",
+    "async"
+  ],
+  "author": "diosmosis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diosmosis/redux-semantic-action-middleware/issues"
+  },
+  "homepage": "https://github.com/diosmosis/redux-semantic-action-middleware#readme",
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.9.0",
+    "chai": "^3.5.0",
+    "co-mocha": "^1.1.2",
+    "mocha": "^2.4.5",
+    "redux": "^3.5.2"
+  }
+}
